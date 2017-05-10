@@ -57,6 +57,8 @@ console.log(say*5);
 var name="vasya",
     say=+"385";
 console.log(typeof say);
+var name=prompt("Enter your name");
+console.log(name);
 
 
 
