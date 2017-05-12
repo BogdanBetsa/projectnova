@@ -91,15 +91,50 @@ if(5===x){
     console.log("No, you can enter other number");
 }*/
 
-var year =prompt("Введите год");
+/*var year =prompt("Введите год");
 if(year=2000){
     console.log("welcome to " +year);
 }else if(year==2001){
     console.log("welcome 2001");
 }else if(year==2002){
     console.log("welcome 2002");
-}
+}*/
 
+/*var age =prompt("Введите возраст");
+if(age<2){
+    console.log("Младенец");
+}
+else if(age >= 2 && age <= 10){
+    console.log("Ребенок");
+}
+else if(age >= 10 && age <= 55){
+    console.log("Подросток");
+}
+else if(age >= 55 && age <= 99){
+    console.log("Пенсионер");
+}
+if(age >= 55 && age <=65){
+    console.log("Женский");
+}
+else if(age >65 && age <=99){
+    console.log("Mужской");
+}*/
+
+var month = prompt("Введите месяц");
+switch (month) {
+case "january":
+    console.log("Winter");
+    break;
+case "february":
+    console.log("Winter");
+    break;
+case "marth":
+    console.log("Spring");
+    break;
+default:
+    console.log("Вы ввели неверно месяц");
+    break;
+}
 
 
 
