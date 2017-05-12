@@ -1,4 +1,4 @@
-console.log("hello");
+/*console.log("hello");
 var userName = "hello\" world";
 console.log(userName);
 var x=5;
@@ -59,6 +59,47 @@ var name="vasya",
 console.log(typeof say);
 var name=prompt("Enter your name");
 console.log(name);
+
+var i=0;
+i++;
+console.log(i);
+
+var n=0;
+var c=n++;
+console.log(n);
+console.log(c);
+
+var n=0;
+var c=++n;
+console.log(n);
+console.log(c);
+
+if(5==5){
+    console.log("yes");
+}
+
+var x=prompt("enter x")
+if(5===x){
+    console.log("yes");
+}*/
+
+/*var x=prompt("enter x")
+if(5===x){
+    console.log("yes");
+    console.log("Hello");
+}else{
+    console.log("No, you can enter other number");
+}*/
+
+var year =prompt("Введите год");
+if(year=2000){
+    console.log("welcome to " +year);
+}else if(year==2001){
+    console.log("welcome 2001");
+}else if(year==2002){
+    console.log("welcome 2002");
+}
+
 
 
 
