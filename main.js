@@ -107,7 +107,7 @@ if(age<2){
 else if(age >= 2 && age <= 10){
     console.log("Ребенок");
 }
-else if(age >= 10 && age <= 55){
+else if(age >= 10 && age <= 54){
     console.log("Подросток");
 }
 else if(age >= 55 && age <= 99){
@@ -120,48 +120,45 @@ else if(age >65 && age <=99){
     console.log("Mужской");
 }*/
 
-var month = prompt("Введите месяц");
+/*var month = prompt("Введите месяц");
 switch (month) {
-case "january":
-    console.log("Winter");
-    break;
-case "february":
-    console.log("Winter");
-    break;
-case "marth":
-    console.log("Spring");
-    break;
-default:
-    console.log("Вы ввели неверно месяц");
-    break;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    case "январь":
+        console.log("зима");
+        break;
+    case "февраль":
+        console.log("зима");
+        break;
+    case "март":
+        console.log("весна");
+        break;
+    case "апрель":
+        console.log("весна");
+        break;
+    case "май":
+        console.log("весна");
+        break;
+    case "июнь":
+        console.log("лето");
+        break;
+    case "июль":
+        console.log("лето");
+        break;
+    case "август":
+        console.log("лето");
+        break;
+    case "сентябрь":
+        console.log("осень");
+        break;
+    case "октябрь":
+        console.log("осень");
+        break;
+    case "ноябрь":
+        console.log("осень");
+        break;
+    case "декабрь":
+        console.log("зима");
+        break;
+    default:
+        console.log("Вы ввели неверно месяц");
+        break;
+}*/
