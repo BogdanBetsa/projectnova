@@ -249,33 +249,100 @@ while (i < 10) {
     i++;
 }
 
-/*var q = true;
+var q = true;
 do {
     q = confirm("Вы действительно хотите удалить?");
 } while (q);*/
 
-var a = {name: "Petya", age:40, gender:"Male"};
-for(var u in a){
-    console.log(a[u])
-};
+/*function sayHello(name){
+    console.log("Hello " + name);
+}
+sayHello("Petya");
+sayHello("Vasya");
 
-var a = [34, 5, 40, 60];
-for(var u in a){
-    console.log(a[u])
-};
-
-var menu = [
-    {
-        title: "",
-        link: "",
-        submenu:[
-            {   }
-            {   }
-        ]
-    }
-];
+function polyndrom(number){
+    
+    
+    
+   
+}
+var num = prompt("Введите число");
+polyndrom("num");
  
+function polyndrom(){
+    console.log(arguments);
+    
+    
+   
+}
+var num = prompt("Введите число");
+polyndrom(32, 43, 54, 65);*/
 
+/*function mySum(x, y) {
+    return x + y;
+}
+var z = mySum(5, 6);
+console.log(10 * z);*/
+
+/*function getMax(){
+    var max = arguments[0];
+    for(var i = 0, i < arguments.length; i++){
+        if(max < arguments[i]){
+            max = arguments[i];
+        }
+    }
+    
+    return max;
+}
+var x = getMax(35, 40, 36, 80, 15, 30);
+console.log(x);*/
+/*//function declaration
+function getNum(num) {
+    console.log(num)
+};
+getNum(5);
+
+//function expression
+var getNum = function (num) {
+    console.log(num)
+};
+getNum(5);
+
+var getNum = function (num) {
+    return num
+};
+var x = getNum(5);
+var x2 = getNum;
+console.log(x, typeof x2);*/
+
+/*function getNum(callback) {
+    var c = 10 * 5;
+    callback(c);
+}
+var num = function (x) {
+    console.log(x + 5);
+}
+getNum(function (x) {
+    console.log(x + 5);
+});*/
+
+/*var smartphone = {
+    color: "white",
+    diagonal: "5 inch",
+    call: function (tel) {
+        console.log("call to " + tel)
+    },
+    sendsms: function (msg) {
+        console.log ("send sms to " + msg)
+    }
+};
+smartphone.call("30987654321");
+smartphone.sendsms("30987654321");*/
+function getx() {
+    getx();
+}
+getx();
+var nun = prompt("Enter number")
 
 
 
